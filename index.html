@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Board Games web-page">
+    <meta name="keywords" content="board, games, entertainment, play, friends, party">
+    <meta name="author" content="Nino Dautashvili">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fb meta tags -->
+    <meta property="og:url"                content="https://mariami-dautashvili.github.io/board-games-finalProject/index.html" />
+    <meta property="og:type"               content="board games" />
+    <meta property="og:title"              content="company of board games" />
+    <meta property="og:description"        content="The site is about board games that improves our knowledge" />
+    <meta property="og:image"              content="images/people.jpg">
+    <link rel="icon" type="image/png" href="images/favicon.png" sizes="64x64">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link href="https://kenwheeler.github.io/slick/slick/slick-theme.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Board Games</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html">
+                <i class="icon-logo"></i>
+            </a>
+            <nav class="navigation" id="nav">
+                <div class="forResponsive">
+                <ul class="navbar-ul">
+                    <li class="active"><a href="#section" class="js-anchor-link">home</a></li>
+                    <li><a  href="#section-1" class="js-anchor-link">about us</a></li>
+                    <li><a href="#section-2" class="js-anchor-link">shop</a></li>
+                    <li><a  href="#section-3" class="js-anchor-link">partners</a></li>
+                    <li><a  href="#section-4" class="js-anchor-link">customers</a></li>
+                    <li><a  href="#section-5" class="js-anchor-link">contact</a></li>
+                    <li class="toggle-dark"><a  href="dark.html" >
+                        <i class="fas fa-toggle-off"></i>
+                    </a>
+                </li>
+                    
+                </ul>
+            </div>
+            </nav>
+
+            <div class="toggle-button" id="toggleButton">
+                <i class="fas fa-bars"></i>
+            </div>
+
+        </div>
+    </header>
+
+
+    <section class="background-picture">
+        <div class="bg-text" id="section"> 
+            <h4 class="welcome-text">Welcome to NGames</h4>
+            <h2 class="text-join">join the club!</h2>
+            <p class="p-text">you can join our club by only one click</p>
+            <button class="join-button">
+                JOIN
+            </button>
+        </div>
+    </section>
+
+    <section class="sect1" id="section-1">
+        <div class="container-sect-1">
+        <h3 class="heading">about us</h3>
+        <div class="about-us-text" data-aos="zoom-in-up">
+            <div class="about-photo-div">
+                <img class="about-photo" src="images/people.jpg" alt="people">
+                </div>
+                <div class="text-about">
+                <p>who are we?</p>
+                <p>We are Board Gamers. We at The NGames are playing games since years and are in complete love with dynamics of this world<span id="dots">...</span><span id="more">. Board games are not just fun, but are amazing collection of ideas that you can interact with like no other form of entertainment.</span></p>
+            <button class="readMore" onclick="myFunction()" id="myBtnRead">
+                Read More
+            </button>
+                </div>
+        </div>
+    </div>
+    </section>
+
+
+    <section class="sect2" id="section-2">
+        <div class="container-sect-2">
+            <h3 class="heading shop">shop</h3>
+            <div class="multiple-items slider" data-aos="fade-up"
+            data-aos-duration="3000">
+                <div class="slider-item">
+                    <div class="game-image">
+                        <img src="images/game-1.jpg" alt="game-1">
+                        <div class="overlay">View Details</div>
+                    </div>
+                    <p class="game-name">Scythe</p>
+                    <div class="play-rules">
+                        <p><span style="font-weight: bold">Player count:</span> 1 to 5<br>
+                            <span style="font-weight: bold">Duration:</span> 90 to 115 minutes<br>
+                            <span style="font-weight: bold">Rules:</span> see in description<br>
+                            <span style="font-weight: bold">Ages:</span> 14+
+                        </p>                        
+                    </div>
+                    <p class="price">$60</p>
+                    <div class="rate">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><button>Add to Cart</button></p>
+                </div>
+
+                <div class="slider-item">
+                    <div class="game-image">
+                        <img src="images/game-2.jpg" alt="game-2">
+                        <div class="overlay">View Details</div>
+                    </div>
+                    <p class="game-name">Wingspan</p>
+                    <div class="play-rules">
+                        <p><span style="font-weight: bold">Player count:</span> 1 to 5<br>
+                            <span style="font-weight: bold">Duration:</span> 40 to 70 minutes<br>
+                            <span style="font-weight: bold">Rules:</span> see in description<br>
+                            <span style="font-weight: bold">Ages:</span> 10+
+                        </p>                        
+                    </div>
+                    <p class="price">$45</p>
+                    <div class="rate">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                
+                <div class="slider-item">
+                    <div class="game-image">
+                        <img src="images/game-3.jpg" alt="game-3">
+                        <div class="overlay">View Details</div>
+                    </div>
+                    <p class="game-name">Tokaido</p>
+                    <div class="play-rules">
+                        <p><span style="font-weight: bold">Player count:</span> 2 to 5<br>
+                            <span style="font-weight: bold">Duration:</span> 45 minutes<br>
+                            <span style="font-weight: bold">Rules:</span> see in description<br>
+                            <span style="font-weight: bold">Ages:</span> 8+
+                        </p>                        
+                    </div>
+                    <p class="price">$115</p>
+                    <div class="rate">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    </div>
+                    <p><button>Add to Cart</button></p>
+                </div>
+
+                <div class="slider-item">
+                    <div class="game-image">
+                        <img src="images/game-4.jpg" alt="game-4">
+                        <div class="overlay">View Details</div>
+                    </div>
+                    <p class="game-name">Cathedral</p>
+                    <div class="play-rules">
+                        <p><span style="font-weight: bold">Player count:</span> 2<br>
+                            <span style="font-weight: bold">Duration:</span> 20  minutes<br>
+                            <span style="font-weight: bold">Rules:</span> see in description<br>
+                            <span style="font-weight: bold">Ages:</span> 6+
+                        </p>                        
+                    </div>
+                    <p class="price">$50</p>
+                    <div class="rate">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><button>Add to Cart</button></p>
+                </div>
+
+                <div class="slider-item">
+                    <div class="game-image">
+                        <img src="images/game-5.jpg" alt="game-5">
+                        <div class="overlay">View Details</div>
+                    </div>
+                    <p class="game-name">Sagrada</p>
+                    <div class="play-rules">
+                        <p><span style="font-weight: bold">Player count:</span> 1 to 4<br>
+                            <span style="font-weight: bold">Duration:</span> 30 to 45 minutes<br>
+                            <span style="font-weight: bold">Rules:</span> see in description<br>
+                            <span style="font-weight: bold">Ages:</span> 16+
+                        </p>                        
+                    </div>
+                    <p class="price">$85</p>
+                    <div class="rate">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><button>Add to Cart</button></p>
+                </div>
+
+                <div class="slider-item">
+                    <div class="game-image">
+                        <img src="images/game-6.jpg" alt="game-6">
+                        <div class="overlay">View Details</div>
+                    </div>
+                    <p class="game-name">Betrayal at House</p>
+                    <div class="play-rules">
+                        <p><span style="font-weight: bold">Player count:</span> 3 to 6<br>
+                            <span style="font-weight: bold">Duration:</span> 60 minutes<br>
+                            <span style="font-weight: bold">Rules:</span> see in description<br>
+                            <span style="font-weight: bold">Ages:</span> 12+
+                        </p>                        
+                    </div>
+                    <p class="price">$78</p>
+                    <div class="rate">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    </div>
+                    <p><button>Add to Cart</button></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sect3" id="section-3">
+        <div class="container-sect-3">
+            <h3 class="heading partners">partners</h3>
+            <div class="partner-div">
+                    <h4 class="partner-name">
+                        <img src="images/mcdonalds.png" alt="mcdonalds">
+                    </h4>
+                    <p class="partner-info mac">
+                        McDonald's is an American fast food company, founded in 1940 as a restaurant operated by Richard and Maurice McDonald, in San Bernardino, California, United States. They rechristened their business as a hamburger stand, and later turned the company into a franchise, with the Golden Arches logo being introduced in 1953 at a location in Phoenix, Arizona. In 1955, Ray Kroc, a businessman, joined the company as a franchise agent and proceeded to purchase the chain from the McDonald brothers. McDonald's had its original headquarters in Oak Brook, Illinois, but moved its global headquarters to Chicago in early 2018
+                    </p>
+                    <i class="partner-arrow macA"></i>
+                </div>
+                <div class="partner-div">
+                    <h4 class="partner-name">
+                        <img src="images/wendy.png" alt="Wendy">
+                    </h4>
+                    <p class="partner-info">
+                        Wendy's is an American international fast food restaurant chain founded by Dave Thomas on November 15, 1969, in Columbus, Ohio. The company moved its headquarters to Dublin, Ohio, on January 29, 2006. As of 2016, Wendy's was the world's third largest hamburger fast food chain with 6,500+ locations, following Burger King and McDonald's. On April 24, 2008, the company announced a merger with Triarc Companies Inc., a publicly traded company and the parent company of Arby's. Despite the new ownership, Wendy's headquarters remained in Dublin. Previously, Wendy's had rejected more than two buyout offers from Triarc.[citation needed] Following the merger, Triarc became known as Wendy's/Arby's Group, and later as The Wendy's Company.                
+                    </p>
+                    <i class="partner-arrow"></i>
+                </div>
+                <div class="partner-div">
+                    <h4 class="partner-name">
+                        <img src="images/starbucks.png" alt="starbucks">
+                    </h4>
+                    <p class="partner-info">
+                        Starbucks is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. As the world's largest coffeehouse chain, Starbucks is seen to be the major representation of the United States' second wave of coffee culture. As of September 2020, the company had 32,660 stores in 83 countries, including 16,637 company operated stores and 16,023 licensed stores.
+                    </p>
+                    <i class="partner-arrow"></i>
+                </div>
+                <div class="partner-div">
+                    <h4 class="partner-name">
+                        <img src="images/julius-meinl.png" alt="julius-meinl">
+                    </h4>
+                    <p class="partner-info">
+                        Julius Meinl International (German: Julius Meinl AG, Meinl-Gruppe), also known simply as Julius Meinl, is a manufacturer and retailer of coffee, gourmet foods and other grocery products. The company is based in Vienna, Austria. It is named after its founders Julius Meinl I, and Julius Meinl II. Julius Meinl III ceded control of the company to his son in 1987. The retail division of the group, except the high-profile flagship store in downtown Vienna, was sold to Rewe by Julius Meinl V in 1998/1999.                
+                    </p>
+                    <i class="partner-arrow"></i>
+                </div>
+                <div class="partner-div">
+                    <h4 class="partner-name">
+                        <img src="images/dunkin-donuts.png" alt="dunkin-donuts">
+                    </h4>
+                    <p class="partner-info">
+                        Dunkin' Donuts, currently rebranding as Dunkin', is an American multinational coffee company and quick service restaurant. It was founded by William Rosenberg in Quincy, Massachusetts in 1950. The chain was acquired by Baskin-Robbins' holding company Allied Lyons in 1990; its acquisition of the Mister Donut chain and conversion to Dunkin' Donuts facilitated the brand's growth in North America that year.[2] Dunkin' Donuts and Baskin-Robbins have been subsidiaries of Dunkin' Brands, headquartered in Canton, Massachusetts, since 2004. The chain began rebranding as a "beverage-led company", and was renamed Dunkin', in January 2020.
+                    </p>
+                    <i class="partner-arrow"></i>
+                </div>
+        </div>
+
+    </section>
+
+
+    <section class="sect4" id="section-4">
+        <div class="container-sect-4">
+            <h3 class="heading customer">customers</h3>
+            <div class="reviews" data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500">
+                <div class="review-cust">
+                    <div class="cust-img">
+                        <img src="images/bred.png" alt="brad">
+                    </div>
+                    <h3>brad pitt</h3>
+                    <p class="text-review">This is the classic game I remember playing as a kid. I've been looking for it and not any of the newer versions. I'm posting this video to show what is included to help others make their decision to purchase. It is exactly what I wanted, can't wait to share with the family!</p>
+                    <div class="time-ago">
+                    <i class="far fa-clock"></i>
+                    <p>2 minutes ago</p>
+                    </div>
+                    <div class="social-activite">
+                        <div class="heart">
+                            <i class="fas fa-heart"></i>
+                            <span>35</span>
+                        </div>
+                        <div class="comment">
+                        <i class="far fa-comment-dots"></i>
+                        <span>2</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="review-cust">
+                    <div class="cust-img">
+                        <img src="images/selena.png" alt="selena">
+                    </div>
+                    <h3>selena gomez</h3>
+                    <p class="text-review">This seems to hold my teenagers' attention quite well. The handling of the dice is a foreign concept to them, and Alexa doesn't know who 'did it,' so they have to work for their answers.</p>
+                    <div class="time-ago">
+                        <i class="far fa-clock"></i>
+                        <p>1 month ago</p>
+                    </div>
+                    <div class="social-activite">
+                        <div class="heart">
+                            <i class="fas fa-heart"></i>
+                            <span>2234</span>
+                        </div>
+                        <div class="comment">
+                            <i class="far fa-comment-dots"></i>
+                            <span>567</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-cust">
+                    <div class="cust-img">
+                        <img src="images/olivia.png" alt="olivia">
+                    </div>
+                    <h3>olivia rodrigo</h3>
+                    <p class="text-review">I have been looking for a while for a genuine copy of old school Clue game and on ebay you never know until you get whether it is legit or not but on here especially a prime item I had no doubt and was not disappointed! I love it and came exactly as I remember! Highly recommend to all 80's babies out there that are looking for the nostalgic clue game!</p>
+                    <div class="time-ago">
+                        <i class="far fa-clock"></i>
+                        <p>3 weeks ago</p>
+                    </div>
+                    <div class="social-activite">
+                        <div class="heart">
+                            <i class="fas fa-heart"></i>
+                            <span>30</span>
+                        </div>
+                        <div class="comment">
+                            <i class="far fa-comment-dots"></i>
+                            <span>467</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sect5" id="section-5">
+        <div class="container-sect-5">
+            <h3 class="heading contact">contact</h3>
+            <div class="contact-info" data-aos="fade-down">
+                <div class="contact-info-block">
+                    <div class="rounded">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <p><span style="font-weight: bold">Address: </span>8 Egnate Ninoshvili St, Tbilisi 0102</p>
+                </div>
+                <div class="contact-info-block">
+                    <div class="rounded">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <p><span style="font-weight: bold">Phone: </span>+995 551 87 65 43</p>
+                </div>
+                <div class="contact-info-block">
+                    <div class="rounded">
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                    <p><span style="font-weight: bold">Email:</span> info@Game.com</p>
+                </div>
+                <div class="contact-info-block">
+                    <div class="rounded">
+                        <i class="fas fa-globe-africa"></i>
+                    </div>
+                    <p>NGames.com</p>
+                </div>
+            </div>
+            <div class="form-section">
+            <form class="contact-form" action="#" method="POST">
+                <input type="text" class="contact-form-text" placeholder="Your name">
+                <input type="email" class="contact-form-text" placeholder="Your email">
+                <input type="text" class="contact-form-text" placeholder="Your phone">
+                <textarea class="contact-form-text" placeholder="Your message"></textarea>
+                <input type="submit" class="contact-form-btn" value="Send">
+              </form>
+              </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <a href="index.html">
+                <i class="icon-logo"></i>
+            </a>
+            <p>We are Board Gamers. We at The NGames are playing games since years and are in complete love with dynamics of this world!</p>
+        
+        <div class="socials">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        </div>
+        <ul class="footer-right">
+            <li>
+                <h2>Product</h2>
+                <ul class="box">
+                    <li><a href="#">Theme Design</a></li>
+                    <li><a href="#">Wordpress</a></li>
+                    <li><a href="#">Theme Design</a></li>
+                    <li><a href="#">Startups</a></li>
+                    <li><a href="#">New Games</a></li>
+                </ul>
+            </li>
+            <li class="features">
+                <h2>Useful Links</h2>
+                <ul class="box">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">customers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Address</h2>
+                <ul class="box">
+                    <li><a href="#">8 Egnate Ninoshvili St, Tbilisi 0102</a></li>
+                    <li><a href="#">Tbilisi</a></li>
+                    <li><a href="#">Batumi</a></li>
+                    <li><a href="#">Kutaisi</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="footer-bottom">
+            <p>&copy; 2021 NGames.com, Inc. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
